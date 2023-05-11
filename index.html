@@ -8,6 +8,47 @@
     <script src="scripts.js"></script>
 </head>
 <body>
-    
+    <section class="clc_con" id="rental_coverage_loan_buy_to_let">
+	<h3 class="h3_1">Buy to let rental coverage <span class="c_g1">calculator</span></h3>
+<form id="buytoletcalcrental" method="post">
+<div class="clc_tr">
+ 	<div class="clc_td1">
+      	<input type="number" name="rental_monthly_simple_cover" class="ipt_1 clc_ipt" id="rental_monthly_simple_cover" value="600" data-prokeyscachednode="false">
+	</div>
+	<div class="clc_td2">
+		<label class="clc_lb" for="rental_monthly_simple_cover">Enter the typical gross rental for the property before any deductions at all, even if the property is already let for less and do not deduct agents fees.</label>
+	</div>
+</div>
+<div class="clc_tr">
+ 	<div class="clc_td1">
+      	<input type="number" name="interest_rate_simple_cover" class="ipt_1 clc_ipt" id="interest_rate_simple_cover" value="2.59" data-prokeyscachednode="false">
+	</div>
+	<div class="clc_td2">
+		<label class="clc_lb" for="interest_rate_simple_cover">Enter the interest rate for the potential mortgage, or the lenders notional interest rate.</label>
+	</div>
+</div>
+<div class="clc_tr">
+ 	<div class="clc_td1">
+		<input type="number" name="coverage_percentage" class="clc_ipt ipt_1" id="coverage_percentage" value="125" data-prokeyscachednode="false">
+	</div>
+	<div class="clc_td2">
+		<label class="clc_lb" for="coverage_percentage">Enter the rental coverage percentage required, ie for a lender needing 140% coverage enter 140.</label>
+	</div>
+</div>
+<div class="clc_tr">
+	<input name="Submit_btl_simple" type="button" value="Calculate" class="btn_2 clc_btn" onclick="btlrental(this.form)">
+</div>
+<div class="clc_tr">
+ 	<div class="clc_td1">
+		<input type="text" name="maximum_loan" class="clc_ipt ipt_1" id="maximum_loan" value="Calculate" readonly="">
+	</div>
+	<div class="clc_td2">
+		<label class="clc_lb" for="maximum_loan">This is the maximum loan based on this rental assessment formula</label>
+	</div>
+</div>
+</form>
+<p><strong>Understanding this calculator:</strong></p>
+<p>This calculator is really useful for those landlords who know their lenders rental assessments well enough already and just want a quick way to calculate lending limits on a remortgage for example. If you want to understand it better call us.</p>
+</section>
 </body>
 </html>
